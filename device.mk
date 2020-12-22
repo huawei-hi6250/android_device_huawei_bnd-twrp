@@ -16,7 +16,7 @@
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    device/huawei/anne/dummykernel:kernel
+    device/huawei/bnd/dummykernel:kernel
 	
 # Usb
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

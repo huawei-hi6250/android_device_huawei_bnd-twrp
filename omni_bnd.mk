@@ -19,13 +19,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Inherit from anne device
-$(call inherit-product, device/huawei/anne/device.mk)
+$(call inherit-product, device/huawei/bnd/device.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_anne
-PRODUCT_DEVICE := anne
+PRODUCT_NAME := omni_bnd
+PRODUCT_DEVICE := bnd
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := P20 Lite
+PRODUCT_MODEL := Honor 7x
 PRODUCT_MANUFACTURER := Huawei
